@@ -21,5 +21,5 @@ facilitate communication within the community and offer features not available o
 * Alternatively you can download the Balsamiq app [here](https://balsamiq.com/wireframes/) 
 * You may need to create an account but will not have to pay for the service
 *You can then proceed to download the bmpr file [here](https://github.com/nyankey/UI-UX-Designs/blob/main/All%20Tickets%20Project.bmpr)
-* You can now open the file with the Balsamiq and play the wireframe to engage with the interactions
+* You can now open the file with the Balsamiq app and play the wireframe to engage with the interactions
 ###### Balsamiq allows pages to be linked
