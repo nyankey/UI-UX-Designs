@@ -1,0 +1,134 @@
+@charset "utf-8";
+/*
+    2019 Chevrolet Volt Hybrid
+    Author: Tameka Brown
+    Date:   4/16/2020
+ */
+
+
+/* HTML and Body Styles */
+
+
+html {
+		background-image: url(background.png);
+		background-size: cover;
+		font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+body {
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 960px;
+		min-width: 640px;
+		width: 95%;
+		overflow: auto;
+}
+
+		/* Header image size*/
+
+.header img {
+		margin-left: auto;
+		margin-right: auto;
+		width: 100%;
+		height: 220px;
+}
+
+		/* Navigation list size and background color*/
+
+.topnav {
+		overflow: hidden;
+		background-color: rgb(102,204,0);
+		font-family: Georgia, serif;
+
+}
+
+.topnav a {
+		float: left;
+		display: block;
+		color: black;
+		text-align: center;
+		padding: 14px 90px;
+		text-decoration: none;
+		font-size: 17px;
+}
+
+
+.dropdown {
+		float: left;
+		overflow: hidden;
+}
+
+.dropdown .dropbtn {
+		font-size: 17px;    
+		font-family: Georgia, serif;
+		border: none;
+		outline: none;
+		color: black;
+		padding: 14px 16px;
+		background-color: inherit;
+		margin: 0;
+}
+
+.dropdown-content {
+		display: none;
+		position: absolute;
+		background-color: #f9f9f9;
+		min-width: 160px;
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+		float: none;
+		color: black;
+		padding: 12px 16px;
+		text-decoration: none;
+		display: block;
+		text-align: left;
+}
+
+.topnav a:hover, .dropdown:hover .dropbtn {
+		color: white;
+}
+
+.dropdown-content a:hover {
+		color: black;
+		background-color: rgb(102,204,0);
+}
+
+.dropdown:hover .dropdown-content {
+		display: block;
+}
+
+
+ 
+ /*Left Column Section Styles*/
+ section#leftcolumn{
+	 clear:left;
+	 float: left;
+	 width: 70%;
+	 
+	 
+ }
+  
+  /* Right Column Styles */
+section#rightcolumn {
+	float: left;
+	width: 30%;
+	
+}
+	
+
+
+
+
+		/* Footer box size, font and border lines*/
+
+footer {
+	width: 100%;
+	clear: left;
+	text-align: center;
+	font-size: 1.33em;
+	margin-top: 30px;
+	background-color: rgb(102,204,0);
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+}
